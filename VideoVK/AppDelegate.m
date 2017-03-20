@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "OSVideoListViewController.h"
+#import "KeychainWrapper.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    OSVideoListViewController* videoViewController = [[OSVideoListViewController alloc] init];
+    UINavigationController* navigationController = [[UINavigationController alloc]
+                            initWithRootViewController: videoViewController];
+    
+    self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

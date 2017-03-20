@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OSVideoListViewController.h
 //  VideoVK
 //
 //  Created by user on 17.03.17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface OSVideoListViewController : UIViewController
 
 @end
-

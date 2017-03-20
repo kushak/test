@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		CE972B881E7C276F0000DFC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972B871E7C276F0000DFC5 /* main.m */; };
 		CE972B8B1E7C276F0000DFC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972B8A1E7C276F0000DFC5 /* AppDelegate.m */; };
-		CE972B8E1E7C276F0000DFC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972B8D1E7C276F0000DFC5 /* ViewController.m */; };
-		CE972B911E7C27700000DFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE972B8F1E7C27700000DFC5 /* Main.storyboard */; };
 		CE972B931E7C27700000DFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE972B921E7C27700000DFC5 /* Assets.xcassets */; };
 		CE972B961E7C27700000DFC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE972B941E7C27700000DFC5 /* LaunchScreen.storyboard */; };
+		CE972B9F1E7C29660000DFC5 /* OSVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972B9E1E7C29660000DFC5 /* OSVideoListViewController.m */; };
+		CE972BA21E7C474B0000DFC5 /* OSLoginVKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972BA11E7C474B0000DFC5 /* OSLoginVKViewController.m */; };
+		CE972BA51E7CF61F0000DFC5 /* OSServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972BA41E7CF61F0000DFC5 /* OSServerManager.m */; };
+		CE972BAA1E7CF9160000DFC5 /* OSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972BA91E7CF9160000DFC5 /* OSUser.m */; };
+		CE972BAD1E7CFA470000DFC5 /* OSAccesToken.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972BAC1E7CFA470000DFC5 /* OSAccesToken.m */; };
+		CE972BB01E7D1D870000DFC5 /* OSVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972BAF1E7D1D870000DFC5 /* OSVideoTableViewCell.m */; };
+		CE972BB31E7D1E600000DFC5 /* OSVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972BB21E7D1E600000DFC5 /* OSVideo.m */; };
+		CE972BBD1E7EC8990000DFC5 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972BBC1E7EC8990000DFC5 /* KeychainWrapper.m */; };
+		CE972BC01E7FA37A0000DFC5 /* OSPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE972BBF1E7FA37A0000DFC5 /* OSPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +27,29 @@
 		CE972B871E7C276F0000DFC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE972B891E7C276F0000DFC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE972B8A1E7C276F0000DFC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE972B8C1E7C276F0000DFC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE972B8D1E7C276F0000DFC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE972B901E7C27700000DFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE972B921E7C27700000DFC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE972B951E7C27700000DFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE972B971E7C27700000DFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE972B9D1E7C29660000DFC5 /* OSVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSVideoListViewController.h; sourceTree = "<group>"; };
+		CE972B9E1E7C29660000DFC5 /* OSVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSVideoListViewController.m; sourceTree = "<group>"; };
+		CE972BA01E7C474B0000DFC5 /* OSLoginVKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSLoginVKViewController.h; sourceTree = "<group>"; };
+		CE972BA11E7C474B0000DFC5 /* OSLoginVKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSLoginVKViewController.m; sourceTree = "<group>"; };
+		CE972BA31E7CF61F0000DFC5 /* OSServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSServerManager.h; sourceTree = "<group>"; };
+		CE972BA41E7CF61F0000DFC5 /* OSServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSServerManager.m; sourceTree = "<group>"; };
+		CE972BA81E7CF9160000DFC5 /* OSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSUser.h; sourceTree = "<group>"; };
+		CE972BA91E7CF9160000DFC5 /* OSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSUser.m; sourceTree = "<group>"; };
+		CE972BAB1E7CFA470000DFC5 /* OSAccesToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSAccesToken.h; sourceTree = "<group>"; };
+		CE972BAC1E7CFA470000DFC5 /* OSAccesToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSAccesToken.m; sourceTree = "<group>"; };
+		CE972BAE1E7D1D870000DFC5 /* OSVideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSVideoTableViewCell.h; sourceTree = "<group>"; };
+		CE972BAF1E7D1D870000DFC5 /* OSVideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSVideoTableViewCell.m; sourceTree = "<group>"; };
+		CE972BB11E7D1E600000DFC5 /* OSVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSVideo.h; sourceTree = "<group>"; };
+		CE972BB21E7D1E600000DFC5 /* OSVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSVideo.m; sourceTree = "<group>"; };
+		CE972BB81E7D99C10000DFC5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CE972BBB1E7EC8990000DFC5 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		CE972BBC1E7EC8990000DFC5 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		CE972BBE1E7FA37A0000DFC5 /* OSPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPlayerViewController.h; sourceTree = "<group>"; };
+		CE972BBF1E7FA37A0000DFC5 /* OSPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPlayerViewController.m; sourceTree = "<group>"; };
+		CE972BC11E7FAF220000DFC5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +68,7 @@
 			children = (
 				CE972B851E7C276F0000DFC5 /* VideoVK */,
 				CE972B841E7C276F0000DFC5 /* Products */,
+				CE972BB71E7D99C10000DFC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +83,9 @@
 		CE972B851E7C276F0000DFC5 /* VideoVK */ = {
 			isa = PBXGroup;
 			children = (
-				CE972B891E7C276F0000DFC5 /* AppDelegate.h */,
-				CE972B8A1E7C276F0000DFC5 /* AppDelegate.m */,
-				CE972B8C1E7C276F0000DFC5 /* ViewController.h */,
-				CE972B8D1E7C276F0000DFC5 /* ViewController.m */,
-				CE972B8F1E7C27700000DFC5 /* Main.storyboard */,
-				CE972B921E7C27700000DFC5 /* Assets.xcassets */,
-				CE972B941E7C27700000DFC5 /* LaunchScreen.storyboard */,
-				CE972B971E7C27700000DFC5 /* Info.plist */,
+				CE972BB51E7D1E900000DFC5 /* Models */,
+				CE972BB61E7D1EA30000DFC5 /* Views */,
+				CE972BB41E7D1E760000DFC5 /* ViewControllers */,
 				CE972B861E7C276F0000DFC5 /* Supporting Files */,
 			);
 			path = VideoVK;
@@ -74,9 +94,62 @@
 		CE972B861E7C276F0000DFC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE972B891E7C276F0000DFC5 /* AppDelegate.h */,
+				CE972B8A1E7C276F0000DFC5 /* AppDelegate.m */,
+				CE972B921E7C27700000DFC5 /* Assets.xcassets */,
+				CE972B941E7C27700000DFC5 /* LaunchScreen.storyboard */,
+				CE972B971E7C27700000DFC5 /* Info.plist */,
 				CE972B871E7C276F0000DFC5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE972BB41E7D1E760000DFC5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE972B9D1E7C29660000DFC5 /* OSVideoListViewController.h */,
+				CE972B9E1E7C29660000DFC5 /* OSVideoListViewController.m */,
+				CE972BA01E7C474B0000DFC5 /* OSLoginVKViewController.h */,
+				CE972BA11E7C474B0000DFC5 /* OSLoginVKViewController.m */,
+				CE972BBE1E7FA37A0000DFC5 /* OSPlayerViewController.h */,
+				CE972BBF1E7FA37A0000DFC5 /* OSPlayerViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE972BB51E7D1E900000DFC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE972BA31E7CF61F0000DFC5 /* OSServerManager.h */,
+				CE972BA41E7CF61F0000DFC5 /* OSServerManager.m */,
+				CE972BAB1E7CFA470000DFC5 /* OSAccesToken.h */,
+				CE972BAC1E7CFA470000DFC5 /* OSAccesToken.m */,
+				CE972BA81E7CF9160000DFC5 /* OSUser.h */,
+				CE972BA91E7CF9160000DFC5 /* OSUser.m */,
+				CE972BB11E7D1E600000DFC5 /* OSVideo.h */,
+				CE972BB21E7D1E600000DFC5 /* OSVideo.m */,
+				CE972BBB1E7EC8990000DFC5 /* KeychainWrapper.h */,
+				CE972BBC1E7EC8990000DFC5 /* KeychainWrapper.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CE972BB61E7D1EA30000DFC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE972BAE1E7D1D870000DFC5 /* OSVideoTableViewCell.h */,
+				CE972BAF1E7D1D870000DFC5 /* OSVideoTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CE972BB71E7D99C10000DFC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE972BC11E7FAF220000DFC5 /* MediaPlayer.framework */,
+				CE972BB81E7D99C10000DFC5 /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +185,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = HS76VV6WJD;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -140,7 +218,6 @@
 			files = (
 				CE972B961E7C27700000DFC5 /* LaunchScreen.storyboard in Resources */,
 				CE972B931E7C27700000DFC5 /* Assets.xcassets in Resources */,
-				CE972B911E7C27700000DFC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,23 +228,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE972B8E1E7C276F0000DFC5 /* ViewController.m in Sources */,
 				CE972B8B1E7C276F0000DFC5 /* AppDelegate.m in Sources */,
+				CE972BC01E7FA37A0000DFC5 /* OSPlayerViewController.m in Sources */,
+				CE972B9F1E7C29660000DFC5 /* OSVideoListViewController.m in Sources */,
+				CE972BA51E7CF61F0000DFC5 /* OSServerManager.m in Sources */,
+				CE972BB31E7D1E600000DFC5 /* OSVideo.m in Sources */,
 				CE972B881E7C276F0000DFC5 /* main.m in Sources */,
+				CE972BAD1E7CFA470000DFC5 /* OSAccesToken.m in Sources */,
+				CE972BB01E7D1D870000DFC5 /* OSVideoTableViewCell.m in Sources */,
+				CE972BAA1E7CF9160000DFC5 /* OSUser.m in Sources */,
+				CE972BA21E7C474B0000DFC5 /* OSLoginVKViewController.m in Sources */,
+				CE972BBD1E7EC8990000DFC5 /* KeychainWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE972B8F1E7C27700000DFC5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE972B901E7C27700000DFC5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE972B941E7C27700000DFC5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -310,6 +387,7 @@
 				CE972B9C1E7C27710000DFC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
